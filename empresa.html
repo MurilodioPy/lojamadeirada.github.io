@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa</title>
+    <link rel="icon" type="image/png" href="img/market.png">
+    <link rel = "stylesheet" href="reset.css">
+    <link rel = "stylesheet" href="produtos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="caixa">
+            <nav>
+                <ul class="menu">
+                    <li><a href="login.html" target="_self">Login</a></li>
+                    <li><a href="index.html" target="_self">Home</a></li>
+                    <li><a href="empresa.html" target="_self">Empresa</a></li>
+                    <li><a href="produtos.html" target="_self">Produtos</a>
+                        <ul>
+                            <li><a href="quadros.html">Quadros</a></li>
+                            <li><a href="tabuas.html">Tábuas</a></li>
+                            <li><a href="oculos.html">Óculos</a></li>
+                            <li><a href="relogio.html">Relógio</a></li>
+                            <li><a href="brindes.html">Abridor</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="redes.html" target="_self">Redes</a></li>
+                    <li>Search<img src="img/lupa.png" width="68px" height="34px"></li>
+                </ul>
+            </nav>
+            <h1>Loja amadeirada</h1>
+        </div>  
+    </header>
+    <main>
+        <section class="mapa">
+            
+            <h3>Nosso estabelecimento</h3>
+            <p>Nosso estabelecimento está localizado logo ali.</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3755.8934224251516!2d-47.96254468563864!3d-19.717161136816436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad181c60f6ff1%3A0xae0794ddbe6e76d0!2sParque%20Das%20Barrigudas%2C%20Uberaba%20MG!5e0!3m2!1spt-BR!2sbr!4v1654267268989!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        
+        <form>
+            <label for= "nomesobrenome">Nome e sobrenome</label>
+            <input type = "text" id="nomesobrenome" class = "input-padrao" required>
+
+            <label for= "email">Email</label>
+            <input type = "text" id="email" class = "input-padrao" required placeholder = "seuemail@servidor.com.br">
+
+            <label for= "telefone">Telefone</label>
+            <input type = "text" id="telefone" class = "input-padrao" required placeholder = "(xx) x xxxx-xxxx">
+            <label for="mensagem"> Mensagem </label>
+            <textarea cols="70" rows = "10" id="mensagem" class="input-padrao" required></textarea>
+            
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+    </main>
+    
+</body>
+</html>

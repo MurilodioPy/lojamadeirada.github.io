@@ -1,0 +1,268 @@
+body{
+    background-color: #628474;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    background-color: #CDAC79;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #47525E;
+}
+
+#caixa{
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    padding: 40px;
+}
+
+nav li ul{
+    position: absolute;
+    top: 53px;
+    left: 619px;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    display: none;
+    transition: 1s all;
+}
+
+nav li:hover ul{
+	display:block;
+}
+
+nav li ul li {
+	display: block;
+	width: 100px;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    align-items: center;
+}
+
+a{
+    font-weight: bold;
+    color: #50340a;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:visited{
+    font-weight: bold;
+    color: #000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Utilizado na pag empresa.html =================================*/
+/* main {
+    text-align: center;
+	width: 100%;
+	margin: 0px 0;
+} */
+
+form {
+    display: inline-block;
+    width: 300px;
+	margin: 40px 0;
+}
+
+form label {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 100%;
+} 
+
+.enviar{
+    width: 60%;
+    padding: 15px 0;
+    background: #CDAC79;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.mapa{
+    padding: 3em 0;
+    font-weight: bold;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+    font-weight: bold;
+    color: #CDAC79;
+}
+
+/*================================================================*/
+
+#fundodiv{
+    background-color: #CDAC79;
+    align-items: center;
+}
+
+#caixa2{
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#fundodiv2{
+    background-color: #628474;
+}
+
+.produtos{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.produtos li{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    background-color: #CDAC79;
+    border: 10px solid #000000;
+    border-radius: 100%;
+    width: 330px;
+    height: 330px;
+    margin: 0%;  
+    text-align: center;
+    cursor: pointer;
+    transition: 1s all;
+    box-shadow: 10px 10px 20px #50340a;
+}
+
+.produtos li:hover{
+    border-color: #50340a;
+}
+
+.produtos p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.imgprod{
+    text-align: center;
+    
+}
+
+div li p{
+    color: #47525E;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+}
+
+#caixa_redes {
+    width: 660px;
+    height: 365px;
+    position: relative;
+    background-color: #cdac79;
+    margin: auto;
+    top: 120px;
+    z-index:-100;
+}
+
+.redes li{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 84px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*================================================================*/
+
+/* PAGINAS DE PRODUTOS */
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #50340a;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000;
+    padding: 8px 10px;
+}
+
+.tabela{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    margin: 0%;  
+    text-align: center;
+}
+
+.bt_compra p{
+    display: inline-block;
+    background-color: #CDAC79;
+    border: 10px solid #000;
+    width: 240px;
+    height: 70px;
+    color: #000000;
+    font-size: 44px;
+    line-height: 57px;
+    text-align: center;
+    margin: 40px;
+    padding: 20px 0px 0px 0px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+
+.bt_compra p:hover{
+    border-color: #50340a;
+}
+
+@media screen and (max-width: 480px){
+    nav, body, div
+    {
+        width: auto;
+    }
+}
+

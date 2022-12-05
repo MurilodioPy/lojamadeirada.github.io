@@ -1,0 +1,158 @@
+body{
+    background-color: #628474;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    background-color: #CDAC79;
+    text-align: center;
+    color: #47525E;
+}
+
+#caixa{
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    padding: 40px;
+}
+
+nav li ul{
+    position: absolute;
+    top: 53px;
+    left: 619px;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    display: none;
+    transition: 1s all;
+}
+
+nav li:hover ul{
+	display:block;
+}
+
+nav li ul li {
+	display: block;
+	width: 100px;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    align-items: center;
+}
+
+a{
+    font-weight: bold;
+    color: #50340a;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:visited{
+    font-weight: bold;
+    color: #000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#fundodiv{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #CDAC79;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#caixa2{
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#fundodiv2{
+    background-color: #628474;
+}
+
+.produtos{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.produtos li{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    background-color: #CDAC79;
+    border: 10px solid #000000;
+    border-radius: 100%;
+    width: 330px;
+    height: 330px;
+    margin: 0%;  
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px #50340a;
+}
+
+.produtos li:hover{
+    border-color: #50340a;
+}
+
+.produtos p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.imgprod{
+    text-align: center;
+}
+
+div li p{
+    color: #47525E;
+    line-height: 33px;
+    text-align: center;
+}
+
+h2{
+    background-color: #CDAC79;
+    text-align: center;
+    color: #47525E;
+}
+
+p {
+    text-align: center;
+    color: #47525E;
+}
+
+#missao{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 480px){
+    nav
+    {
+        width: auto;
+    }
+}
+
+
