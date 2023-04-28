@@ -1,2 +1,2 @@
 # lojamadeirada
-Site para treinamento de html, css e javascript
+Site para treinamento de html e CSS
